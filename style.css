@@ -1,0 +1,42 @@
+body {
+    background-color: #160f29;
+    color: #7acdc8;
+    text-align: center;
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  
+  .box {
+    height: 150px;
+    width: 150px;
+    margin: 0;
+    border-radius: 1.25rem;
+    border: none;
+    color: #a80a0a;
+    background-color: #7acdc8;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#reset {
+    height: 35px;
+    width: 150px;
+    margin: 2.5%;
+    font-size: 20px;
+    background-color: #7acdc8;
+    color: #160f29;
+    border-radius: 0.65rem;
+}
+
+#message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
